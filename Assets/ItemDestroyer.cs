@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class ItemDestroyer : MonoBehaviour
 {
-    //Unityちゃんのオブジェクト
-    private GameObject unitychan;
     //カメラのオブジェクト
     private GameObject maincamera;
-    //Unityちゃんとカメラの距離
-    private float difference;
-
+    
     // Use this for initialization
     void Start()
     {
